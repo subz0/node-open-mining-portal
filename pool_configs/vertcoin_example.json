@@ -5,12 +5,13 @@
     "address": "VwAafP1tQRHD1nithCNWeyUmd3sDYP5jLT",
 
     "rewardRecipients": {
-        "Vivk1CrBkqRGZgJv5XCU6G7wXXNokfF4VR": 1,
+        "Vivk1CrBkqRGZgJv5XCU6G7wXXNokfF4VR": 1
     },
 
     "paymentProcessing": {
-        "enabled": true, "paymentInterval": 20,
-        "minimumPayment": 70,
+        "enabled": true, 
+        "paymentInterval": 3600,
+        "minimumPayment": 0.0001,
         "daemon": {
             "host": "127.0.0.1",
             "port": 5888,
